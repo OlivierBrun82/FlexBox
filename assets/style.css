@@ -1,0 +1,43 @@
+.box{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin:20px
+}
+.BoxContainer1 {
+    background-color: rgb(34, 232, 254);
+    display:flex;
+    height: 400px;
+    margin-left: 0%;
+    /* positionnement*/
+    justify-content: left;
+    /* alignement */
+    align-items:left
+}
+.BoxContainer2 {
+     display:flex;
+    height: 400px;
+    background-color: rgb(16, 255, 104);
+    /* positionnement*/
+    justify-content: center;
+    /* alignement */
+    align-items:center
+}
+.BoxContainer3 {
+     display:flex;
+    height: 400px;
+    background-color: rgb(34, 232, 254);
+    /* positionnement*/
+    justify-content: center;
+    /* alignement */
+    align-items:middle
+}
+.BoxContainer4 {
+     display:flex;
+    height: 400px;
+    background-color: rgb(16, 255, 104);
+    /* positionnement*/
+    justify-content: center;
+    /* alignement */
+    align-items:left
+}
